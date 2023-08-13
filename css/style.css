@@ -12,7 +12,7 @@
 
 ::selection {
    color: var(--bg-color);
-   background-color: var(--second-color);
+   background-color: #00844d;
 }
 
 * {
@@ -67,7 +67,7 @@ header.shadow .logo {
 .nav {
    display: flex;
    align-items: center;
-   justify-content: center;
+   justify-content: space-between;
    padding: 18px 0;
 }
 
@@ -81,6 +81,10 @@ header.shadow .logo {
 .logo span {
    color: #99cfee;
    font-family: 'Silkscreen', cursive;
+}
+
+.logo-rge {
+   width: 3.5rem;
 }
 
 /* Home */
@@ -155,7 +159,7 @@ header.shadow .logo {
    font-size: 0.9rem;
    font-weight: 500;
    text-transform: uppercase;
-   color: var(--second-color);
+   color: #012168;
 }
 
 .post-title {
@@ -201,7 +205,7 @@ header.shadow .logo {
    object-fit: cover;
    border-radius: 50%;
    object-position: center;
-   border: 2px solid var(--second-color);
+   border: 2px solid #012168;
 }
 
 .profile-name {
