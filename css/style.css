@@ -54,6 +54,7 @@ header {
    left: 0;
    z-index: 200;
 }
+
 header.shadow {
    background: #00844d;
    box-shadow: 0 1px 4px hsl(0 4% 14% / 10%);
@@ -223,6 +224,7 @@ header.shadow .logo {
    font-size: 0.938rem;
 
 }
+
 .social {
    display: flex;
    align-items: center;
@@ -307,7 +309,7 @@ header.shadow .logo {
 }
 
 /* Responsive Site */
-@media (max-width: 1060px){
+@media (max-width: 1060px) {
    .container {
       margin: 0 auto;
       width: 95%;
@@ -322,6 +324,7 @@ header.shadow .logo {
    .nav {
       padding: 14px 0;
    }
+
    .post-container {
       margin: 0 auto;
       width: 95%;
@@ -332,6 +335,7 @@ header.shadow .logo {
    .nav {
       padding: 10px 0;
    }
+
    section {
       padding: 2rem 0;
    }
@@ -347,7 +351,7 @@ header.shadow .logo {
    .home-title {
       font-size: 3rem;
    }
-   
+
    .header-title {
       font-size: 2rem;
    }
@@ -369,9 +373,11 @@ header.shadow .logo {
    .post-header {
       height: 390px;
    }
+
    .header-title {
       width: 100%;
    }
+
    .header-img {
       height: 340px;
    }
@@ -384,34 +390,86 @@ header.shadow .logo {
    }
 }
 
-@media (max-width: 396px){
+@media (max-width: 396px) {
    .home-title {
       font-size: 2rem;
    }
+
    .home-subtitle {
       font-size: 0.9rem;
    }
+
    .home {
       min-height: 300px;
    }
+
    .post-box {
       padding: 10px;
    }
+
    .header-title {
       font-size: 1.4rem;
    }
+
    .header-img {
       height: 240px;
    }
+
    .post-header {
       height: 335px;
    }
+
    .post-content {
       margin-top: 5rem !important;
    }
+
    .post-text {
       font-size: 0.875rem;
       line-height: 1.5rem;
       margin: 10px 0;
    }
+
+   .image-item {
+      width: 2rem;
+   }
+
+}
+
+.li-item-container {
+   text-align: center;
+   margin-bottom: 5rem;
+}
+.li-item {
+   text-align: justify;
+   margin-bottom: 10px;
+}
+
+.bawah {
+   text-align: center;
+}
+
+.ul-li-title {
+   font-weight: bold;
+   text-align: start;
+}
+
+.susun-item-image {
+   width: 80%;
+   display: flex;
+   justify-content: space-evenly;
+   margin: auto;
+}
+
+.image-item {
+   width: 7rem;
+}
+
+.ol-custom-number {
+   font-weight: bold;
+   margin-right: 4px;
+}
+
+.sub-penekanan {
+   width: 50%;
+   margin-left: 20px;
 }
